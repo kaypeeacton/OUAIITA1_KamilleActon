@@ -21,30 +21,38 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Style the header */
 header {
-  padding: 30px;
+  padding: 10px;
   text-align: center;
   font-size: 35px;
   color: white;
 }
 
-nav {
-  float: center;
-  width: 71.5%;
-  height: 30px;
-  background: #ccc;
-  padding: 10px;
+.topnav {
   text-align: center;
-  margin-left: 230px
+  background-color: #1A5276
+  width:auto;
 }
 
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0px;
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  margin: auto;
+  padding: 15px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
 }
 
+.topnav a:hover {
+  background-color: #FFA07A;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
 article {
   float: center;
   padding: 20px;
@@ -61,13 +69,13 @@ section::after {
 }
 
 footer {
-  background-color: #777;
-  width: 71.5%;
-  height: 30px;
-  padding: 10px;
+  width: 72.2%;
+  height: 20px;
+  padding: 5px;
   text-align: center;
   color: white;
-  margin-left: 230px
+  margin-left: 230px;
+  font-size: 10px
 }
 @media (max-width: 600px) {
   nav, article {
@@ -80,7 +88,7 @@ footer {
 </head>
 <body>
   <header>
-    <h2>My Project Idea</h2>
+    <h2>Resource Management System</h2>
   </header>
   <section>
     <nav>
@@ -95,7 +103,6 @@ footer {
     </nav>
 
     <article>
-      <h1>Resource Management System</h1>
       <b>Overview</b>
       <p>This system enables employees to book clients or projects they will be working on and will show a percentage of how much time they will be putting in for those clients on a daily basis. This system will allow companies to economise the time of their employees, determine whether clients need additional resources to reduce pressure on staff and provide data to renegotiate a higher fee if necessary.</p>
 

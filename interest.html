@@ -21,30 +21,38 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Style the header */
 header {
-  padding: 30px;
+  padding: 10px;
   text-align: center;
   font-size: 35px;
   color: white;
 }
 
-nav {
-  float: center;
-  width: 71.5%;
-  height: 30px;
-  background: #ccc;
-  padding: 10px;
+.topnav {
   text-align: center;
-  margin-left: 230px
+  background-color: #1A5276
+  width:auto;
 }
 
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0px;
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  margin: auto;
+  padding: 15px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
 }
 
+.topnav a:hover {
+  background-color: #FFA07A;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
 article {
   float: center;
   padding: 20px;
@@ -61,13 +69,13 @@ section::after {
 }
 
 footer {
-  background-color: #777;
-  width: 71.5%;
-  height: 30px;
-  padding: 10px;
+  width: 72.2%;
+  height: 20px;
+  padding: 5px;
   text-align: center;
   color: white;
-  margin-left: 230px
+  margin-left: 230px;
+  font-size: 10px
 }
 @media (max-width: 600px) {
   nav, article {
@@ -79,10 +87,10 @@ footer {
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-  <header>
-    <h2>Interest in IT</h2>
-  </header>
   <section>
+    <header>
+      <h2>Interest in IT</h2>
+    </header>
     <nav>
       <ul>
         <div class="topnav">
@@ -91,11 +99,10 @@ footer {
           <a href="file:///Users/kamillephoebeacton/Documents/GitHub/OUAIITA1_KamilleActon/idealjob.html">Ideal Job</a>
           <a href="file:///Users/kamillephoebeacton/Documents/GitHub/OUAIITA1_KamilleActon/profile.html">Profile</a>
           <a href="file:///Users/kamillephoebeacton/Documents/GitHub/OUAIITA1_KamilleActon/projectidea.html">Project Idea</a>
+        </div>
       </ul>
     </nav>
-
     <article>
-      <h1>Interest in IT</h1>
       <p>I have been interested in technology since I was 14. My grades in computer class in high school and in a basic website development class reflected how I could easily grasp related concepts quickly. However, I have only started to pursue this interest by taking this course.</p>
       <p>In 2014, I worked as a social media specialist for an outsourcing company in the Philippines. I was surrounded by web developers and search engine optimisation experts. I was fascinated with their work, ingenuity, and their ability to find solutions for unexpected bugs.</p>
       <p>I also worked with a marketing company that offered a system to market products through websites and newsletters. The company also offered a customer relationship management system and an eCommerce platform that the team would build from scratch uniquely tailored to each client. I worked in the client support team receiving feedback from clients to personalise their webpage and complaints to log errors. I learned a lot as I watched the team build the platforms; we would sometimes sit together to replicate the errors that our clients were experiencing and brainstorm solutions to their problems. I built great relationships with this team because we maintained clear communication about our clients needs.</p>
